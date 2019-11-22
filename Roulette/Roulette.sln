@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{39307B18-BD3E-45DD-BBA7-D48BACDF6451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordRoulette", "..\DiscordRoulette\DiscordRoulette.csproj", "{5368DF4C-4F7D-4FA9-856D-D585C5033734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordRoulette", "DiscordRoulette\DiscordRoulette.csproj", "{D5FDA35F-5B12-41E3-9362-8F775EB42E04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{39307B18-BD3E-45DD-BBA7-D48BACDF6451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39307B18-BD3E-45DD-BBA7-D48BACDF6451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39307B18-BD3E-45DD-BBA7-D48BACDF6451}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5368DF4C-4F7D-4FA9-856D-D585C5033734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5368DF4C-4F7D-4FA9-856D-D585C5033734}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5368DF4C-4F7D-4FA9-856D-D585C5033734}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5368DF4C-4F7D-4FA9-856D-D585C5033734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FDA35F-5B12-41E3-9362-8F775EB42E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FDA35F-5B12-41E3-9362-8F775EB42E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FDA35F-5B12-41E3-9362-8F775EB42E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FDA35F-5B12-41E3-9362-8F775EB42E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
