@@ -18,23 +18,23 @@ namespace ConsoleTest
             int index = 0;
             int bullet = rng.Next(6);
             string dead = "";
-            while (true)
+            while(true)
             {
                 Console.Write("Round {0}: ", roundCount);
                 PrintStringList(players);
 
-                if (index == players.Count - 1) index = 0;
+                if(index == players.Count - 1) index = 0;
                 else index++;
 
-                if (bullet == 0)
+                if(bullet == 0)
                 {
                     dead = players[index];
                     players.RemoveAt(index);
                     Console.WriteLine("{0} died!", dead);
                     bullet = rng.Next(7);
-                    if (index == 0) index = -1;
+                    if(index == 0) index = -1;
                     else index -= 2;
-                    if (players.Count == 1)
+                    if(players.Count == 1)
                     {
                         Console.WriteLine("{0} wins!", players[0]);
                         return players[0];
@@ -52,9 +52,9 @@ namespace ConsoleTest
         }
         private static void PrintStringList(List<string> list)
         {
-            foreach (string value in list)
+            foreach(string value in list)
             {
-                if (value == list[list.Count - 1]) Console.Write(value);
+                if(value == list[list.Count - 1]) Console.Write(value);
                 else Console.Write(value + "\t");
             }
             Console.WriteLine();
